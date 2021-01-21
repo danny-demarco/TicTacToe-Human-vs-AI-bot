@@ -5,5 +5,5 @@ The minimax algorithm makes use of recursion to allow the Bot to choose the poin
 
 The game is coded using Python, with Pygame used for the graphical user interface.
 
-![ttt](https://raw.githubusercontent.com/Metamorphor/TicTacToe-Human-vs-AI-bot/main/Screenshots/ttt.PNG)
+![ttt2](https://raw.githubusercontent.com/Metamorphor/TicTacToe-Human-vs-AI-bot/main/Screenshots/ttt2.PNG)
 
