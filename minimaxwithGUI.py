@@ -195,6 +195,10 @@ def score(state, player):
     if score_end(state) is not None:
         return score_end(state), None
 
+    # Always choose the centre of the board for the bot if that space is available
+    if state[1][1] == ' ' and player == 'x':
+        return 1, [1, 1]
+
     # obtain a list of tuples with all available spaces left on the board
     pos_mov = moves(state)
 
