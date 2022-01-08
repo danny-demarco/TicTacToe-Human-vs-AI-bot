@@ -235,6 +235,7 @@ def score(state, player):
             x, y = score(state_new, 'x')
             branch_score.append(x)
             place_played.append((row, col))
+            #print(f"o: branch :{branch_score} \n place: {place_played}")
             # Here we locate the minimum value rather than the maximum
             best = min(branch_score)
             index = branch_score.index(best)
